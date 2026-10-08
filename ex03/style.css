@@ -1,0 +1,24 @@
+.named {
+    color: red;
+}
+
+.hex {
+    color: #0000ff;
+}
+
+.rgb {
+    color: rgb(0, 128, 0);
+}
+
+.rgba {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.opacity-box {
+    background-color: blue;
+    opacity: 0.5;
+}
+
+.rgba-box {
+    background-color: rgba(255, 0, 0, 0.5);
+}
