@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 80px 20px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: 1px solid black;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    margin-top: 10px;
+}
+
+.links a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.card-container {
+    position: relative;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    min-height: 150px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    z-index: 2;
+}
+
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    z-index: 1000;
+}
